@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Meu Site</h1>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Olá, eu sou Fabio!</h2>
+      <img src="imagens/img2.png" alt="Minha foto"> 
+        <p>Bem-vindo ao meu site!</p>
+         
+        <!-- Botões aqui -->
+
+            <button onclick="mostrarMensagem()">Saiba mais</button>
+
+    <button onclick="location.href='#projetos'">
+        Ver projetos
+    </button>
+
+    <button onclick="location.href='#sobre'">
+        Sobre mim
+    </button>
+
+    <button onclick="alert('Obrigado por visitar meu site!')">
+        Contato
+    </button>
+
+        <button onclick="mostrarMensagem()">Saiba mais</button>
+
+        <button onclick="location.href='#projetos'">
+            Ver projetos
+        </button>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre mim</h2>
+        <p>Estou aprendendo HTML, CSS e JavaScript.</p>
+        
+<a href="https://www.linkedin.com/in/fabio-oliveira-54b114210/"
+   target="_blank">
+    <button>Meu LinkedIn</button>
+</a>
+
+
+<a href="https://github.com/FabiNHO452"
+   target="_blank">
+    <button>Meu GitHub</button>
+</a>
+
+    
+<section id="projetos">
+    <h2>Meus Projetos</h2>
+
+    <div class="projeto">
+        <h3>Meu primeiro site</h3>
+        <p>Site desenvolvido usando HTML, CSS e JavaScript.</p>
+    </div>
+
+    <div class="projeto">
+        <h3>Projeto futuro</h3>
+        <p>Em breve, novos projetos serão adicionados.</p>
+    </div>
+</section>
+
+    <button onclick="window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+})">
+    Voltar ao início ↑
+</button>
+
+
+<footer>
+    <p>© 2026 Fabio - Meu Site</p>
+    <p>Desenvolvido com HTML, CSS e JavaScript.</p>
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
